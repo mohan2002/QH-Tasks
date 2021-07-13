@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(48, 44, 44);
+  color: white;
+  margin: 0;
+}
+
+nav {
+  background-color: aliceblue;
+  opacity: 0.3;
+  height: 50px;
+  text-align: right;
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+li {
+  font-size: 20px;
+  color: black;
+  display: inline;
+  padding: 30px;
+}
+
+li:hover {
+  background-color: rgb(48, 44, 44, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+#images {
+  margin: 5px;
+  width: 180px;
+  display: grid;
+}
+img {
+  height: 500px;
+  width: 600px;
+  object-fit: contain;
+  padding-left: 6 0%;
+}

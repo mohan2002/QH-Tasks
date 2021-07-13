@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(48, 44, 44);
+  color: white;
+  margin: 0;
+}
+
+nav {
+  background-color: aliceblue;
+  opacity: 0.3;
+  height: 50px;
+  text-align: right;
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 10px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+li {
+  font-size: 20px;
+  color: black;
+  display: inline;
+  padding: 30px;
+}
+
+li:hover {
+  background-color: rgb(48, 44, 44, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+iframe {
+  height: 300px;
+  padding-top: 100px;
+  border-radius: 10px;
+}
